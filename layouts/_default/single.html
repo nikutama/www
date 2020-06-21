@@ -4,9 +4,11 @@
         <header>
             <h1 class="post-title{{ if .Params.favorite }} favorite{{end}}">{{ trim .Title  " " }}</h1>
         </header>
+        {{ if not .Params.notoc }}
         <aside>
             {{ .TableOfContents }}
         </aside>
+        {{ end }}
         <div class="content">
             {{ .Content }}
         </div>
