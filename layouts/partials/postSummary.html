@@ -1,0 +1,17 @@
+<article class="post-list">
+    <header>
+        <h1 class="post-title{{ if .Params.favorite }} favorite{{end}}"><a href="{{ .RelPermalink }}">{{ trim .Title " " }}</a></h1>
+    </header>
+
+    <div class="content post-summary">
+        {{ .Summary | safeHTML }}
+        {{ if .Truncated }}
+          ... 
+          <div class="read-more">
+            <a href="{{ .RelPermalink }}">{{ i18n "readMore" | humanize }}</a>
+          </div>
+        {{ end }} 
+    </div>
+    
+    {{ partial "postInfo.html" . }}
+</article>
