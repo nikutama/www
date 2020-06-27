@@ -1,5 +1,5 @@
 languageCode: "ja-JP"
-baseUrl: ""
+baseUrl: "/"
 title: "にくたま雑記帳 - 自分のための備忘録"
 theme: "anubis"
 paginate: 10
