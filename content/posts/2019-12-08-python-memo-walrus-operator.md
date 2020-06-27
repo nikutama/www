@@ -1,5 +1,5 @@
 ---
-title: "Pythonメモ – セイウチ演算子"
+title: "Python メモ – セイウチ演算子"
 slug: "python-memo-walrus-operator"
 date:   2019-12-08 00:00:00 +0900
 tags: 

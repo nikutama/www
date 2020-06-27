@@ -1,5 +1,5 @@
 ---
-title: "Pythonメモ – JSON(非ASCII文字)"
+title: "Python メモ – JSON(非ASCII文字)"
 slug: "python-memo-json"
 date:   2019-12-26 00:00:00 +0900
 tags: 
