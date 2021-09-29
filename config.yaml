@@ -14,7 +14,12 @@ menu:
     name: Archive
     title: Archive
     url: /posts/
-    weight: 0
+    weight: 1
+  - identifier: tag
+    name: Tag
+    title: Tag
+    url: /tags/
+    weight: 2
 
 permalinks:
   posts: /:year/:month/:day/:slug/
@@ -25,7 +30,7 @@ params:
   # images:
   #   - images/og-featured.png # relative path to "static" directory
   customCSS:
-    - css/my.css # relative path to "static" directory
+    - css/my.css # relative path to "assets" directory
   dateFormat: "2006-01-02"
   paginationSinglePost: true
 
