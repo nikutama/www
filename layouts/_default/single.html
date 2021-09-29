@@ -12,11 +12,11 @@
         <div class="content">
             {{ .Content }}
         </div>
-        {{ partial "postInfo.html" . }}
+        {{ partial "post-info.html" . }}
     </article>
 
     {{ if .Site.Params.paginationSinglePost}}
-        {{ partial "paginationPost.html" . }}
+        {{ partial "post-pagination.html" . }}
     {{ end }}
 
     {{ if .Site.DisqusShortname }}
